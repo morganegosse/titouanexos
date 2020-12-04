@@ -1,0 +1,71 @@
+#borne{
+    position: absolute;
+    bottom: 0;
+    background-image: url("../../public/img/fuel_pump-01-01.svg");
+    display: block;
+    width: 800px;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#borne form{
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+}
+
+#borne form #clientFormSubmit{
+    position: absolute;
+    left: 41%;
+    top: 500%;
+    width: 100%;
+}
+
+#borne #amount{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 100%;
+    color: white;
+}
+
+#borne #amount #price{
+    width: 100%;
+}
+
+#borne #amount p{
+    background-color: white;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: center;
+    color: black;
+}
+
+#borne #amount #priceLitre p{
+    width: 10%;
+}
+
+#ticket{
+    background-image: url("../../public/img/ttiou.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+}
+
+#ticket ul{
+    width: 150px;
+    height: 200px;
+}
+
+.paymentMethod{
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+
+.hide{
+    display: none;
+}
